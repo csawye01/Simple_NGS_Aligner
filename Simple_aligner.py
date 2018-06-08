@@ -1,5 +1,5 @@
-for_rev_read_files = ('A2_S1_L001_R1_001.fastq', 'A2_S1_L001_R2_001.fastq')
-ref_file = './S1.fasta'
+for_rev_read_files = ('R1 fastq file here', 'R2 fastq file here')
+ref_file = 'Reference sequence fasta file here'
 
 for record in SeqIO.parse(ref_file, "fasta"):
     seq_len = len(record.seq)
