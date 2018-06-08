@@ -1,2 +1,2 @@
 # Simple_NGS_Aligner
-A very basic Next Generation sequence aligner 
+A very basic Next Generation sequence aligner that take into account circular DNA and produces a consensus sequence and coverage at each position. This will only allow matching of reads that are 100% matching or only have 1 indel/SNP. This is useful for sequencing results that are expected to match the reference quite well. The consensus sequence produced at the end concatenates the gaps and can be seen when put into an alignment program.  
